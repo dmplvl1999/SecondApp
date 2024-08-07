@@ -6,5 +6,11 @@ public class Demo {
         FeeThread feeThread = new FeeThread();
         feeThread.start(); // asking
         // feeThread.run() runs on main thread
+
+
+
+        LibraryThread libraryThread = new LibraryThread();
+        Thread libThread = new Thread(libraryThread);
+        libThread.start();
     }
 }

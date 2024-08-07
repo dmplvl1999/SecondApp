@@ -40,6 +40,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    //implementation("com.android.support:recyclerview-v7:28.0.0")
+    //implementation("com.android.support:design:28.0.0")
    // compile 'com.android.support:recyclerview-v7:23.1.1'
    // compile 'com.android.support:design:23.1.1'
 }
